@@ -22,7 +22,11 @@ const Profile = () => {
 
   const isAuthorized = useAppSelector(state => state.auth.isAuthorized);
 
-  return <div className="">{isAuthorized && <p>Profile</p>}</div>;
+  return (
+    <div className="wrapper">
+      {isAuthorized && <h1 className="title">Profile</h1>}
+    </div>
+  );
 };
 
 export default Profile;
