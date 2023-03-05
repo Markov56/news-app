@@ -1,0 +1,24 @@
+.header {
+  margin-bottom: 24px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  gap: 16px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
